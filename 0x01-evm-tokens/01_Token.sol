@@ -37,7 +37,7 @@ contract BasicToken {
         uint8 _decimals,
         uint256 _initialSupply
     ) {
-        // Store metadata so wallets and explorers can display the token nicely.
+        // Store metadata so wallets and explorers can display the token correctly.
         name = _name;
         symbol = _symbol;
         decimals = _decimals;
